@@ -48,6 +48,7 @@ class SingleShadowScroll
 
     addEvent @cont, 'scroll', @scroll
 
+    @cont.style.position = 'relative' if @cont.style.position is ''
     @scroll()
 
   createElement: (context, element) ->
