@@ -1,5 +1,5 @@
-# Shadow Scroll
-Shadow Scroll will add top and/or bottom shadows to your overflowed scroll area
+# ShadowScroll
+ShadowScroll will add top and/or bottom shadows to your overflowed scroll area
 in order to indicate that there's still something to scroll.
 
 - If you're at the very top, there's a bottom shadow
@@ -11,7 +11,7 @@ See **[demo](http://oskarkrawczyk.github.com/shadow-scroll/)**
 
 ## Setup
 
-You can install Heyoffline via Bower with `bower install ShadowScroll` or download `shadow-scroll.js` and include it the old-fashined way.
+You can install ShadowScroll via Bower with `bower install ShadowScroll` or download `shadow-scroll.js` and include it the old-fashined way.
 
 ### CoffeeScript
 ```coffeescript
@@ -51,10 +51,10 @@ new ShadowScroll(shadowScroll, {
 </table>
 
 ## Requirements
-Shadow Scroll is **framework-agnostic**. No need for jQuery. It's written in **CoffeeScript**, and compiled into JavaScript.
+ShadowScroll is **framework-agnostic**. No need for jQuery. It's written in **CoffeeScript**, and compiled into JavaScript.
 
 ## Source code
 All efforts have been made to keep the source as clean and readable as possible.
 
 ## Requirements
-Shadow Scroll is released under an MIT License, so do with it what you will.
+ShadowScroll is released under an MIT License, so do with it what you will.
