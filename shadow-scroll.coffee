@@ -68,7 +68,7 @@ class SingleShadowScroll
     @elements.top.style.opacity = scrollTop # if scrollTop <= 0 then 0 else 1
     @elements.bottom.style.opacity = if scrollTop + clientHeight >= scrollHeight then 0 else 1
 
-class ShadowScroll
+class @ShadowScroll
 
   constructor: (selector, options) ->
 
