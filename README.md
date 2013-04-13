@@ -1,8 +1,13 @@
 # Shadow Scroll
-Shadow Scroll will add top and/or bottom shadows to your overflowed scroll area in order to indicate that there's still something to scroll.
+Shadow Scroll will add top and/or bottom shadows to your overflowed scroll area
+in order to indicate that there's still something to scroll.
 
-## Demo
-See **[demo](http://oskarkrawczyk.github.com/shadow-scroll/)**.
+- If you're at the very top, there's a bottom shadow
+- If you're in the middle, there is a top and a bottom shadow
+- If you're at the very bottom, there's a top shadow
+
+## Demo (TODO)
+See **[demo](http://oskarkrawczyk.github.com/shadow-scroll/)**
 
 ## Setup
 
