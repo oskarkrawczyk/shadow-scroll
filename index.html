@@ -7,7 +7,7 @@
     <script type="text/javascript" src="public/javascripts/shadow-scroll.js"></script>
     <script type="text/javascript">
       window.addEventListener('load', function(){
-        new ShadowScroll();
+        new ShadowScroll(document.querySelectorAll('.shadowScroll'));
       }, false);
     </script>
     <title>ShadowScroll</title>
@@ -47,6 +47,19 @@ new ShadowScroll(shadowScroll, {
       <p>Remember that instantiation needs to be done within a <strong>load</strong> or <strong>domready</strong>.</p>
 
       <h3 id="demo">Demo</h3>
+
+      <ul class="demo shadowScroll">
+        <li>Scroll this area</li>
+        <li>See the shadows on the top and bottom?</li>
+        <li>Lorem</li>
+        <li>Lorem</li>
+        <li>Lorem</li>
+        <li>Lorem</li>
+        <li>Lorem</li>
+        <li>Lorem</li>
+        <li>Lorem</li>
+        <li>Lorem</li>
+      </ul>
 
       <h3>Options</h3>
       <table>

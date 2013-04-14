@@ -153,3 +153,17 @@ table {
 
 .desc {
 }
+
+.demo {
+  height: 180px;
+  overflow: auto;
+  border: solid 1px #DFDFDF;
+}
+
+  .demo li {
+    padding: 10px;
+  }
+
+  .demo li:nth-child(odd) {
+    background: #F9F9F9;
+  }
