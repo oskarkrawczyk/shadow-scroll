@@ -6,7 +6,7 @@ in order to indicate that there's still something to scroll.
 - If you're in the middle, there is a top and a bottom shadow
 - If you're at the very bottom, there's a top shadow
 
-## Demo (TODO)
+## Demo
 See **[demo](http://oskarkrawczyk.github.com/shadow-scroll/)**
 
 ## Setup
