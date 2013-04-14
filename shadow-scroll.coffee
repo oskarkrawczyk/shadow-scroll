@@ -73,6 +73,3 @@ class @ShadowScroll
   constructor: (selector, options) ->
 
     new SingleShadowScroll cont, options for cont in selector
-
-# window.Positionly.loadQueue.push ->
-#  new ShadowScroller document.querySelectorAll('.shadowScroll')
